@@ -1,0 +1,44 @@
+{
+  "name": "@fooxly/babel-preset-react",
+  "version": "1.0.0",
+  "description": "The default Babel preset for Fooxly projects using React.",
+  "keywords": [
+    "fooxly",
+    "code",
+    "babel",
+    "preset",
+    "react",
+    "optional",
+    "chaining",
+    "module",
+    "resolver",
+    "plugin",
+    "src"
+  ],
+  "author": "Fooxly <hello@fooxly.com> (https://developers.fooxly.com)",
+  "homepage": "https://github.com/Fooxly/babel-preset-react",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fooxly/babel-preset-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fooxly/babel-preset-react/issues",
+    "email": "bugs@fooxly.com"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.6.3",
+    "@fooxly/babel-preset": "^1.0.2",
+    "@wordpress/babel-plugin-import-jsx-pragma": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4"
+  }
+}
