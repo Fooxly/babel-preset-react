@@ -1,6 +1,6 @@
 {
   "name": "@fooxly/babel-preset-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The default Babel preset for Fooxly projects using React.",
   "keywords": [
     "fooxly",
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.6.3",
-    "@fooxly/babel-preset": "^1.0.2",
+    "@fooxly/babel-preset": "^1.0.3",
     "@wordpress/babel-plugin-import-jsx-pragma": "^2.3.0"
   },
   "devDependencies": {
