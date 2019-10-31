@@ -10,7 +10,6 @@ The default [Babel](https://babeljs.io/) preset for [Fooxly](https://www.fooxly.
 - [@babel/preset-react](https://www.npmjs.com/package/@babel/preset-react)
 - [@wordpress/babel-plugin-import-jsx-pragma](https://www.npmjs.com/package/@wordpress/babel-plugin-import-jsx-pragma)
 
-
 ## ❤&nbsp; Support us
 
 > <span style="color:#32CD32">**40%**</span> of the revenue made from the support you give us, will be donated to a [charity](https://teamtrees.org)
