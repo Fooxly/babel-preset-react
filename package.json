@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.6.3",
-    "@fooxly/babel-preset": "^1.0.3",
+    "@fooxly/babel-preset": "^2.0.1",
     "@wordpress/babel-plugin-import-jsx-pragma": "^2.3.0"
   },
   "devDependencies": {
