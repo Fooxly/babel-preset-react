@@ -13,6 +13,9 @@
     "module",
     "resolver",
     "plugin",
+    "import",
+    "pragma",
+    "jsx",
     "src"
   ],
   "author": "Fooxly <hello@fooxly.com> (https://developers.fooxly.com)",
