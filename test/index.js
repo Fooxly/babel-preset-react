@@ -1,21 +1,8 @@
 const { transformSync } = require('@babel/core')
-const preset = require('.')
+const preset = require('..')
 
-const source = `
-const result = <div className='test' />
-`.trim()
-
-const snapshot = `
-"use strict";
-
-var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-var result = _react["default"].createElement("div", {
-  className: "test"
-});
-`.trim()
+const source = require('./source')
+const snapshot = require('./snapshot')
 
 const { code } = transformSync(source, {
 	babelrc: false,

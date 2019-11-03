@@ -31,7 +31,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "cd test && node ."
   },
   "dependencies": {
     "@babel/preset-react": "^7.6.3",
