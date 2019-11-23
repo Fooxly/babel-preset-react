@@ -6,6 +6,12 @@ module.exports = function (api) {
   api.cache(true)
   return {
     presets: [basePreset, reactPreset],
-    plugins: [importJSX]
+    plugins: [importJSX],
+    env: {
+      production: {
+        compact: true,
+        sourceMaps: false
+      }
+    }
   }
 }
