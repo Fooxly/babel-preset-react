@@ -4,7 +4,7 @@ The default [Babel](https://babeljs.io/) preset for [Fooxly](https://www.fooxly.
 
 [![npm version](https://img.shields.io/npm/v/@fooxly/babel-preset-react.svg?style=flat)](https://www.npmjs.com/package/@fooxly/babel-preset-react)
 [![downloads](https://img.shields.io/npm/dt/@fooxly/babel-preset-react.svg)](https://www.npmjs.com/package/@fooxly/babel-preset-react)
-[![ci status](https://github.com/Fooxly/babel-preset-react/workflows/CI/badge.svg)](https://github.com/Fooxly/babel-preset-react/actions?query=workflow%3ACI)
+[![ci status](https://github.com/Fooxly/babel-preset-react/workflows/tests/badge.svg)](https://github.com/Fooxly/babel-preset-react/actions?query=workflow%3Atests)
 
 ## :rocket:&nbsp; Powered By
 
