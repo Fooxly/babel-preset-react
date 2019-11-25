@@ -66,13 +66,15 @@ yarn add -D @fooxly/babel-preset-react
 
 ### using React Native
 
-Make sure to check out the README of the [Metro Babel preset](https://www.npmjs.com/package/metro-react-native-babel-preset) in order to use the latest available React Native technologies.
+> Make sure to check out the README of the [Metro Babel preset](https://www.npmjs.com/package/metro-react-native-babel-preset) in order to use the latest available React Native technologies.
+
+You **must** include the `noEnv: true` option and require this preset **after** the Metro one, in order for this preset to work with React Native.
 
 ```json
 {
   "presets": [
     "module:metro-react-native-babel-preset",
-    "@fooxly/babel-preset-react"
+    ["@fooxly/babel-preset-react", { "noEnv": true }]
   ]
 }
 ```
