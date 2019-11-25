@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [3.0.0] - 2019-11-25
 ### Added
-- [CI workflow](https://github.com/Fooxly/babel-preset/actions?query=workflow%3Atests)
+- [CI workflow](https://github.com/Fooxly/babel-preset-react/actions?query=workflow%3Atests)
 
 ### Changed
 - Updated dependencies
